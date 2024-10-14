@@ -17,7 +17,7 @@
 - Efficient file size management without compromising quality.
 - Built using **Magick.NET**.
 
-# How to choose right DPI value
+## How to choose right DPI value
 
 **DPI (Dots Per Inch)** is a measure of how many dots (or pixels) are packed into one inch of the image. It plays a crucial role in determining the resolution and quality of an image. The higher the DPI, the more detailed the image will be, but the image size in terms of pixels will also increase.
 
@@ -34,7 +34,7 @@ This formula helps determine the total number of pixels needed to represent the 
 
 Let’s say you want to create an image that will be **4 inches wide** and **6 inches tall** with a DPI of **300**. 
 
-### Calculation:
+## Calculation:
 
 - **Width in pixels** = 4 inches × 300 DPI = 1200 pixels
 - **Height in pixels** = 6 inches × 300 DPI = 1800 pixels
