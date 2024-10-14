@@ -33,6 +33,10 @@ public class PdfToPngConverterUsingQ16
 
                     // save the image at defined path
                     image.Write(string.Format(outputPngFilePath, $"{i + 1}.png"));
+
+                     //lossless Compression
+                    var optimizer = new ImageOptimizer();
+                    optimizer.LosslessCompress(outputPngFilePath);
                 }
             }
         }
