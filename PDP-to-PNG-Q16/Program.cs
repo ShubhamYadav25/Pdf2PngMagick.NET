@@ -28,9 +28,6 @@ public class PdfToPngConverterUsingQ16
                 // Select the current page
                 using (MagickImage image = (MagickImage)images[i])
                 {
-                    // Set the image size to 1200x1800 pixels (4x6 inches at 300 DPI)
-                    image.Resize(1200, 1800);
-
                     // set quality of the PNG output
                     image.Quality = 100;
 
